@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Account Number Simulator</title>
+</head>
+<body>
+    <div>
+        <h1>Account Number Simulator</h1>
+        <div class="dropdown">
+            <h2>Order 1</h2>
+            <form>
+                <select class="dropbtn" id="Order1">
+                    <option disabled selected value="">Select</option>
+                    <option value="Region">Region</option>
+                    <option value="Branch">Branch</option>
+                    <option value="Officer">Officer</option>
+                    <option value="Type Code">Type Code</option>
+                    <option value="Platform">Platform</option>
+                </select>
+            </form>
+            <div>
+            <p>Length:</p>
+            <input type="text" class="input" id="length1" value="0">
+            </div>
+            <div>
+            <p>Value:</p>
+            <input type="text" class="input" id="value1" value="0"> 
+            </div>  
+        </div>
+        <div class="dropdown">
+            <h2>Order 2</h2>
+            <form>
+                <select class="dropbtn" id="Order2">
+                    <option disabled selected value="">Select</option>
+                    <option value="Region">Region</option>
+                    <option value="Branch">Branch</option>
+                    <option value="Officer">Officer</option>
+                    <option value="Type Code">Type Code</option>
+                    <option value="Platform">Platform</option>
+                </select>
+            </form>
+            <div>
+                <p>Length:</p>
+                <input type="text" class="input" id="length2" value="0">
+            </div>
+            <div>
+                <p>Value:</p>
+                <input type="text" class="input" id="value2" value="0"> 
+            </div>
+        </div>
+        <div class="dropdown">
+            <h2>Order 3</h2>
+            <form>
+                <select class="dropbtn" id="Order3">
+                    <option disabled selected value="">Select</option>
+                    <option value="Region">Region</option>
+                    <option value="Branch">Branch</option>
+                    <option value="Officer">Officer</option>
+                    <option value="Type Code">Type Code</option>
+                    <option value="Platform">Platform</option>
+                </select>
+            </form>
+            <div>
+                <p>Length:</p>
+                    <input type="text" class="input" id="length3" value="0">
+            </div>
+            <div>
+                <p>Value:</p>
+                <input type="text" class="input" id="value3" value="0"> 
+            </div>
+        </div>
+        <div class="dropdown">
+            <h2>Order 4</h2>
+            <form>
+                <select class="dropbtn" id="Order4">
+                    <option disabled selected value="">Select</option>
+                    <option value="Region">Region</option>
+                    <option value="Branch">Branch</option>
+                    <option value="Officer">Officer</option>
+                    <option value="Type Code">Type Code</option>
+                    <option value="Platform">Platform</option>
+                </select>
+            </form>
+            <div>
+                <p>Length:</p>
+                <input type="text" class="input" id="length4" value="0">
+            </div>
+            <div>
+                <p>Value:</p>
+                <input type="text" class="input" id="value4" value="0"> 
+            </div> 
+        </div>
+        <div class="dropdown">
+            <h2>Order 5</h2>
+            <form>
+                <select class="dropbtn" id="Order5">
+                    <option disabled selected value="">Select</option>
+                    <option value="Region">Region</option>
+                    <option value="Branch">Branch</option>
+                    <option value="Officer">Officer</option>
+                    <option value="Type Code">Type Code</option>
+                    <option value="Platform">Platform</option>
+                </select>
+            </form>
+            <div>
+                <p>Length:</p>
+                <input type="text" class="input" id="length5" value="0">
+            </div>
+            <div>
+                <p>Value:</p>
+                <input type="text" class="input" id="value5" value="0"> 
+            </div>
+        </div>
+        <div class="dropdown">
+            <h2>Order 6</h2>
+            <form>
+                <select class="dropbtn" id="Order6">
+                    <option value="Sequence">Sequence</option>
+                </select>
+            </form>
+            <div>
+                <p>Length:</p>
+                <input type="text" class="input" id="length6" value="0">
+            </div>
+            <div>
+                <p>Value:</p>
+                <input type="text" class="input" id="value6" value="0"> 
+            </div>
+        </div>
+    </div>
+    <div id="options">
+        <button type="button" id="button">Go!</button>
+        <button type="button" id="reset">Reset</button>
+        <form>
+            <select name="modSelect" id="modSelect">
+                <option disabled selected value="">Select Modulus</option>
+                <option value="11">Mod 11</option>
+                <option value="10">Mod 10</option>
+            </select>
+        </form>
+    </div>
+    <h2>Breakdown:</h2>
+    <div id="result1" class="result1"></div>
+    <div id="result2" class="result2"></div>
+    <div id="combined">
+        <h2>Account Number:</h3>
+        <p class="combined" id="pcombined"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
